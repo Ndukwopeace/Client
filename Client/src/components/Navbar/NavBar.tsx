@@ -23,7 +23,7 @@ const NavBar = () => {
 
     
   return (
-    <Box  bg={"#05253A"} color={"white"} className='text-white border border-black flex flex-col items-center pt-3 gap-[1.5rem] h-screen' >
+    <Box  bg={"#05253A"} color={"white"} className='text-white border border-black flex flex-col items-center pt-3 gap-[1.5rem] ' >
         {/* Logo */}
         <Image src={smallLogo} className='h-[3rem]'/>
 

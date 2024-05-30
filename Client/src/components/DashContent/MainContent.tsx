@@ -4,7 +4,7 @@ import Home from './Home'
 
 const MainContent = () => {
   return (
-    <div className='border border-black col-span-5 flex flex-col '>
+    <div className=' col-span-5 flex flex-col '>
       <Profile/>
       <Home/>
 
