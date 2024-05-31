@@ -6,7 +6,7 @@ import homeData from '../../../Data/HomeData/homeData'
 
 
 
-const Home = ({page}: any) => {
+const Home = ({page , setPage}: any) => {
   console.log(homeData);
   // let name : String ;
   // let action : string ;
@@ -17,7 +17,7 @@ const Home = ({page}: any) => {
         {
           homeData.map((data) => {
             return (
-              <MyCard  data={data}/>
+              <MyCard  data={data} setPage = {setPage}/>
             )
           })
         }

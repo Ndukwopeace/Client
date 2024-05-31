@@ -12,7 +12,7 @@ const Dashboard = () => {
     <>
     <div className='grid grid-cols-6'>
       <NavBar setPage={setPage} page={page}/>
-      <MainContent page={page}/>
+      <MainContent page={page} setPage={setPage}/>
 
     </div>
    

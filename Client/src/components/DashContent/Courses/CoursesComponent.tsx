@@ -4,7 +4,7 @@ import Header from '../Header'
 import { Box, Button, Heading } from '@chakra-ui/react'
 import coursesData from '../../../../Data/CoursesData/coursesData'
 
-const CoursesComponent = ({page} : any) => {
+const CoursesComponent = ({page , setPage} : any) => {
     console.log(coursesData);
     const [currentPage , setCurrentPage] = useState(1);
     const [recordsPerPage] = useState(6);
@@ -20,7 +20,7 @@ const CoursesComponent = ({page} : any) => {
     const nPages = Math.ceil(coursesData.length / recordsPerPage);
   return (
     <div className='pl-[2rem] pt-[1rem] flex flex-col gap-7 pb-6'>
-        <Header page={page}/>
+        <Header page={page} setPage={setPage}/>
         <Box className=' bg-[white]  rounded-lg py-[1.5rem] px-[2rem] flex flex-col gap-[1.5rem] w-[95%]'>
         <Box className='  flex justify-between '> 
             <Heading>List of Courses</Heading>

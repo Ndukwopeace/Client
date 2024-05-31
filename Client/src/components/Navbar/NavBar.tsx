@@ -2,7 +2,7 @@ import {useState} from 'react'
 import { Box, Button, Image, StackDivider, VStack } from '@chakra-ui/react'
 import smallLogo from '../../assets/images/Group.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressBook, faDashboard } from '@fortawesome/free-solid-svg-icons'
+import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import { MdChat, MdDashboard, MdOutlineLogout } from 'react-icons/md'
 import { FaRegCalendar, FaRegFile, FaRegUser } from 'react-icons/fa6'
 import { FiMessageSquare } from 'react-icons/fi'
@@ -11,12 +11,9 @@ import { useNavigate } from 'react-router-dom'
 
 
 const NavBar = ({setPage , page} : any) => {
-    const [isClicked , setIsClicked ] = useState(false);
+
     const navigate = useNavigate();
 
-
-
-    
   return (
     <Box  bg={"#05253A"} color={"white"} className='text-white border border-black flex flex-col items-center pt-3 gap-[1.5rem] min-h-screen' >
         {/* Logo */}

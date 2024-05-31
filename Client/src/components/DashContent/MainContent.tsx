@@ -1,18 +1,16 @@
-import React from 'react'
 import Profile from './Profile'
 import Home from './Home'
 import CoursesComponent from './Courses/CoursesComponent'
 
-const MainContent = ({page} : any) => {
+const MainContent = ({page , setPage} : any) => {
 
-  const renderMyContent = () : any=> {
+  const renderMyContent = () : any => {
 
-        switch (page){
+        switch (page) {
           case "courses":
-            return  <CoursesComponent page={page}/>
+            return  <CoursesComponent page={page} setPage={setPage}/>
             default :
-            return <Home page={page}/> 
-            
+            return <Home page={page} setPage={setPage}/> 
           }
   }
   return (
