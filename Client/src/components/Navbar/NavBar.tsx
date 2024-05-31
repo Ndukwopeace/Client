@@ -15,7 +15,7 @@ const NavBar = ({setPage , page} : any) => {
     const navigate = useNavigate();
 
   return (
-    <Box  bg={"#05253A"} color={"white"} className='text-white border border-black flex flex-col items-center pt-3 gap-[1.5rem] min-h-screen' >
+    <Box  bg={"#05253A"} color={"white"} className='text-white border border-black flex flex-col items-center pt-3 gap-[1.5rem] min-h-screen ' >
         {/* Logo */}
         <Image src={smallLogo} className='h-[3rem]'/>
 
@@ -23,7 +23,7 @@ const NavBar = ({setPage , page} : any) => {
         className=' w-[80%] text-sm tracking-wide'
         divider={<StackDivider borderColor={'grey.200'} />}
         spacing={3}
-        align= 'stretch'
+        align='stretch'
         >
 
         <Box  className='flex gap-3 items-center rounded-md hover:cursor-pointer hover:border hover:rounded-md pt-[0.4rem] pb-[0.4rem] pl-4'  style={{background: page == 'home'? "#4C847B" : "inherit"}}  
