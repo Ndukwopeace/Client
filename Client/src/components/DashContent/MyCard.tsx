@@ -11,10 +11,12 @@ const MyCard= ({data}: any) => {
     <Image src={vector1} className='h-7 w-6 absolute top-[2rem]' />
         <Box className=' flex flex-col gap-[1.5rem]'>
             <Heading size='xl' letterSpacing={"0.2rem"}>{data.name}</Heading>
-            <Button height={"1.9rem"} width={"9rem"} fontSize={"0.8rem"} display={"flex"} gap={"0.5rem"} paddingTop={"1.1rem"} paddingBottom={"1.1rem"}>
+            <Box className='hover:cursor-pointer'>
+            <Button height={"1.9rem"}  bg={"#E2DDBF"} width={"9rem"} fontSize={"0.8rem"} display={"flex"} gap={"0.5rem"} paddingTop={"1.1rem"} paddingBottom={"1.1rem"} className='hover:-translate-y-1 hover:scale-110  duration-300' >
             <HiOutlineArrowTopRightOnSquare size={"1.5rem"} />
                 {data.action} 
             </Button>
+            </Box>
         </Box>
 
     <Image src={vector2} className='h-[6rem] w-[14rem] absolute right-[0.1rem] bottom-[0.1rem]' />

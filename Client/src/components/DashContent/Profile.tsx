@@ -14,7 +14,7 @@ import { IoMdNotifications } from 'react-icons/io'
 
 const Profile = () => {
   return (
-    <div className=' h-[11%] flex justify-end items-center pr-[2rem] py-[0.5rem]'>
+    <div className='bg-[white] h-[10%] flex justify-end items-center pr-[2rem] py-[0.5rem]'>
 
         <Box className=' flex items-center gap-3' >
             <IoMdNotifications size={"1.6rem"}/>

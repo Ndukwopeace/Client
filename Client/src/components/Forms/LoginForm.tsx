@@ -43,10 +43,10 @@ const LoginForm = () => {
           </Box>
         </HStack>
     
-        <Button width={'30rem'} bg={"#4C847B"} color={"white"} padding={'1.4rem'} >
+        <Link to='/dashboard' ><Button width={'30rem'} bg={"#4C847B"} color={"white"} padding={'1.4rem'}  >
           <FontAwesomeIcon icon={faArrowRightToBracket} className='mr-[1rem]'/>
           Login
-        </Button>
+        </Button></Link>
       </form>
     </Box>
   )
