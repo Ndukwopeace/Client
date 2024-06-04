@@ -10,7 +10,11 @@ const LoginPage = () => {
   return (
     <>
     <div className=' h-screen main flex flex-col items-center pt-[4rem] justify-between pb-5'>
+<<<<<<< HEAD
       <Box className=' main flex flex-col items-center  gap-[5rem]'>
+=======
+      <Box className=' main flex flex-col items-center  gap-[5rem] lg:gap-[6.3rem] '>
+>>>>>>> NdukwoPeace
           <Box>
           <Image src={logo} className='h-[4rem] w-[22rem]'/>
           </Box>

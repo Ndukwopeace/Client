@@ -574,10 +574,13 @@ video {
   grid-column: span 5 / span 5;
 }
 
+<<<<<<< HEAD
 .ml-\[1rem\] {
   margin-left: 1rem;
 }
 
+=======
+>>>>>>> NdukwoPeace
 .mr-\[0\.4rem\] {
   margin-right: 0.4rem;
 }
@@ -586,6 +589,7 @@ video {
   margin-right: 1rem;
 }
 
+<<<<<<< HEAD
 .ml-\[\] {
   margin-left: ;
 }
@@ -594,6 +598,8 @@ video {
   margin-right: ;
 }
 
+=======
+>>>>>>> NdukwoPeace
 .flex {
   display: flex;
 }
@@ -610,12 +616,25 @@ video {
   height: 1.4rem;
 }
 
+<<<<<<< HEAD
 .h-\[100\%\] {
   height: 100%;
 }
 
 .h-\[11\%\] {
   height: 11%;
+=======
+.h-\[1\.6rem\] {
+  height: 1.6rem;
+}
+
+.h-\[10\%\] {
+  height: 10%;
+}
+
+.h-\[100\%\] {
+  height: 100%;
+>>>>>>> NdukwoPeace
 }
 
 .h-\[3rem\] {
@@ -634,6 +653,7 @@ video {
   height: 100vh;
 }
 
+<<<<<<< HEAD
 .h-\[\] {
   height: ;
 }
@@ -660,6 +680,10 @@ video {
 
 .h-\[1\.6rem\] {
   height: 1.6rem;
+=======
+.max-h-screen {
+  max-height: 100vh;
+>>>>>>> NdukwoPeace
 }
 
 .min-h-screen {
@@ -670,6 +694,13 @@ video {
   width: 1.5rem;
 }
 
+<<<<<<< HEAD
+=======
+.w-\[1\.6rem\] {
+  width: 1.6rem;
+}
+
+>>>>>>> NdukwoPeace
 .w-\[14rem\] {
   width: 14rem;
 }
@@ -690,6 +721,7 @@ video {
   width: 95%;
 }
 
+<<<<<<< HEAD
 .w-\[\] {
   width: ;
 }
@@ -718,6 +750,8 @@ video {
   min-width: 1rem;
 }
 
+=======
+>>>>>>> NdukwoPeace
 .min-w-\[15rem\] {
   min-width: 15rem;
 }
@@ -750,6 +784,13 @@ video {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
+=======
+.gap-1 {
+  gap: 0.25rem;
+}
+
+>>>>>>> NdukwoPeace
 .gap-3 {
   gap: 0.75rem;
 }
@@ -758,6 +799,13 @@ video {
   gap: 1rem;
 }
 
+<<<<<<< HEAD
+=======
+.gap-7 {
+  gap: 1.75rem;
+}
+
+>>>>>>> NdukwoPeace
 .gap-\[1\.5rem\] {
   gap: 1.5rem;
 }
@@ -766,6 +814,7 @@ video {
   gap: 1rem;
 }
 
+<<<<<<< HEAD
 .gap-\[2\.5rem\] {
   gap: 2.5rem;
 }
@@ -786,10 +835,13 @@ video {
   gap: 3;
 }
 
+=======
+>>>>>>> NdukwoPeace
 .gap-\[2rem\] {
   gap: 2rem;
 }
 
+<<<<<<< HEAD
 .gap-2 {
   gap: 0.5rem;
 }
@@ -808,20 +860,34 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
+=======
+.gap-\[5rem\] {
+  gap: 5rem;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+>>>>>>> NdukwoPeace
 }
 
 .rounded {
   border-radius: 0.25rem;
 }
 
+<<<<<<< HEAD
 .rounded-md {
   border-radius: 0.375rem;
+=======
+.rounded-3xl {
+  border-radius: 1.5rem;
+>>>>>>> NdukwoPeace
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
+<<<<<<< HEAD
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -832,6 +898,10 @@ video {
 
 .rounded-3xl {
   border-radius: 1.5rem;
+=======
+.rounded-md {
+  border-radius: 0.375rem;
+>>>>>>> NdukwoPeace
 }
 
 .border {
@@ -858,6 +928,7 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-\[\] {
   background-color: ;
 }
@@ -893,6 +964,20 @@ video {
 
 .p-\[0\.1rem\] {
   padding: 0.1rem;
+=======
+.p-\[0\.1rem\] {
+  padding: 0.1rem;
+}
+
+.px-\[2rem\] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+>>>>>>> NdukwoPeace
 }
 
 .py-\[0\.5rem\] {
@@ -900,11 +985,20 @@ video {
   padding-bottom: 0.5rem;
 }
 
+<<<<<<< HEAD
+=======
+.py-\[1\.5rem\] {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+>>>>>>> NdukwoPeace
 .py-\[1rem\] {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
+<<<<<<< HEAD
 .py-\[\] {
   padding-top: ;
   padding-bottom: ;
@@ -920,11 +1014,14 @@ video {
   padding-right: 1.5rem;
 }
 
+=======
+>>>>>>> NdukwoPeace
 .py-\[2rem\] {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
+<<<<<<< HEAD
 .py-\[rem\] {
   padding-top: rem;
   padding-bottom: rem;
@@ -964,6 +1061,16 @@ video {
   padding-bottom: 1.25rem;
 }
 
+=======
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+>>>>>>> NdukwoPeace
 .pb-\[0\.4rem\] {
   padding-bottom: 0.4rem;
 }
@@ -976,6 +1083,13 @@ video {
   padding-left: 1.5rem;
 }
 
+<<<<<<< HEAD
+=======
+.pl-\[2\.5rem\] {
+  padding-left: 2.5rem;
+}
+
+>>>>>>> NdukwoPeace
 .pl-\[2rem\] {
   padding-left: 2rem;
 }
@@ -1000,6 +1114,7 @@ video {
   padding-top: 4rem;
 }
 
+<<<<<<< HEAD
 .pl-\[\] {
   padding-left: ;
 }
@@ -1036,6 +1151,8 @@ video {
   text-align: left;
 }
 
+=======
+>>>>>>> NdukwoPeace
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1058,6 +1175,14 @@ video {
   letter-spacing: 0.025em;
 }
 
+<<<<<<< HEAD
+=======
+.text-\[\#BDBDBD\] {
+  --tw-text-opacity: 1;
+  color: rgb(189 189 189 / var(--tw-text-opacity));
+}
+
+>>>>>>> NdukwoPeace
 .text-\[blue\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 255 / var(--tw-text-opacity));
@@ -1068,6 +1193,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-\[\] {
   color: ;
 }
@@ -1077,6 +1203,8 @@ video {
   color: rgb(189 189 189 / var(--tw-text-opacity));
 }
 
+=======
+>>>>>>> NdukwoPeace
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1086,6 +1214,7 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+<<<<<<< HEAD
 .hover\:scale-75:hover {
   --tw-scale-x: .75;
   --tw-scale-y: .75;
@@ -1116,6 +1245,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+=======
+>>>>>>> NdukwoPeace
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1134,6 +1265,7 @@ video {
   border-width: 1px;
 }
 
+<<<<<<< HEAD
 .hover\:bg-indigo-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
@@ -1142,3 +1274,51 @@ video {
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+=======
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+@media (min-width: 1024px) {
+  .lg\:gap-\[\] {
+    gap: ;
+  }
+
+  .lg\:gap-\[6rem\] {
+    gap: 6rem;
+  }
+
+  .lg\:gap-\[7rem\] {
+    gap: 7rem;
+  }
+
+  .lg\:gap-\[6\.rem\] {
+    gap: 6.rem;
+  }
+
+  .lg\:gap-\[6\.7rem\] {
+    gap: 6.7rem;
+  }
+
+  .lg\:gap-\[6\.3rem\] {
+    gap: 6.3rem;
+  }
+
+  .lg\:py-\[3\.5rem\] {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .lg\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .lg\:pt-\[1rem\] {
+    padding-top: 1rem;
+  }
+
+  .lg\:pt-\[2rem\] {
+    padding-top: 2rem;
+  }
+}
+>>>>>>> NdukwoPeace
