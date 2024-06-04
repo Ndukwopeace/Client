@@ -14,12 +14,7 @@ const MainContent = ({page , setPage} : any) => {
           }
   }
   return (
-<<<<<<< HEAD
-    <div className=' bg-[#F5F5F5] col-span-5 flex flex-col '>
-
-=======
     <div className=' bg-[#F5F5F5] col-span-5 flex flex-col max-h-screen overflow-scroll'>
->>>>>>> NdukwoPeace
       <Profile/>
       {renderMyContent()}
 

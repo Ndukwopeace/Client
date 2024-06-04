@@ -12,7 +12,7 @@ function App() {
     <>
     <ChakraProvider>
       {/* <h1>Home pages</h1> */}
-        <Outlet/>
+        <Outlet/> 
     </ChakraProvider>
 
    
