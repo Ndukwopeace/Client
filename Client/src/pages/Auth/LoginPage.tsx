@@ -9,20 +9,17 @@ const LoginPage = () => {
 
   return (
     <>
-    <div className=' h-screen main flex flex-col items-center pt-[4rem] justify-between pb-5'>
-      <Box className=' main flex flex-col items-center xl:gap-[3rem] 2xl:gap-[6.3rem] '>
+      <div className=' h-screen main flex flex-col items-center pt-[4rem] justify-between pb-5'>
+        <Box className=' main flex flex-col items-center xl:gap-[3rem] 2xl:gap-[6.3rem] '>
           <Box>
-          <Image src={logo} className='h-[4rem] w-[22rem]'/>
+            <Image src={logo} className='h-[4rem] w-[22rem]' />
           </Box>
-
-          <LoginForm/>
-
-      </Box>
-
-    <Box  color={'white'} className='text-sm font-semibold' >
-      Privacy policy disclaimer.
-    </Box>
-    </div>
+          <LoginForm />
+        </Box>
+        <Box color={'white'} className='text-sm font-semibold' >
+          Privacy policy disclaimer.
+        </Box>
+      </div>
     </>
   )
 }
