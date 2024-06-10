@@ -43,7 +43,8 @@ const NavBar = () => {
                             </Box>
                         })
                     }
-                    <Button background={"#E2DDBF"} height={"2.3rem"} marginTop={"0.7rem"} onClick={() => navigate('/')}>
+                    <Button background={"#E2DDBF"} height={"2.3rem"} marginTop={"0.7rem"} 
+                    onClick={() => navigate('/login')}>
                         <MdOutlineLogout className='mr-[0.4rem]' /> Log Out
                     </Button>
                 </Box>

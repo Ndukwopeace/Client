@@ -1,7 +1,7 @@
 import { Box, Heading, Text } from '@chakra-ui/react'
 // import React from 'react'
 import { MdDashboard } from 'react-icons/md'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Header = () => {
 
@@ -20,7 +20,9 @@ const Header = () => {
 
             <Text className='flex items-center gap-1'><MdDashboard size={"1.3rem"} height={"1.4rem"} color='#BDBDBD' />
 
+              <Link to={"/dashboard/home"}>
               <span className='text-[#BDBDBD] hover:underline hover:cursor-pointer '>Dashboard</span>
+              </Link>
               / Courses
 
             </Text>

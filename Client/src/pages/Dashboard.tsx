@@ -10,8 +10,10 @@ import MainContent from '../components/DashContent/MainContent';
 const Dashboard = () => {
   return (
     <Box className='grid grid-cols-6'>
+
       <NavBar />
       <MainContent />
+      
     </Box>
   )
 }

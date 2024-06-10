@@ -1,7 +1,9 @@
 const homeData = [
     {
         name: "Courses",
-        action: "View courses"
+        action: "View courses",
+        link : "/dashboard/courses",
+        
     },
     {
         name: "Kids",
