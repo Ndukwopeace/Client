@@ -5,6 +5,7 @@ import logo from '../../assets/images/Seven Kids Code logo.png'
 import LoginForm from '../../components/Forms/LoginForm'
 import { Box, Image } from '@chakra-ui/react'
 const LoginPage = () => {
+  
   const navigate = useNavigate();
 
   return (
