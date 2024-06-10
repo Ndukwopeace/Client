@@ -7,6 +7,7 @@ import checkButton from '../../../assets/images/Frame 133.png'
 // import React, { useState } from 'react'
 import Pagination from '../../Pagination/Pagination'
 import { MdChat } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 export interface PropsTable {
     data: any
     currentPage: number
@@ -64,13 +65,26 @@ const CoursesTable = ({ data, currentPage, setCurrentPage, nPages }: PropsTable)
                                         }} >{data.status}</Text></Td>
                                     {
                                         data.status == "Completed" ?
-                                            <Td px={1} ><Box bg={"#EEECED"} className='flex  justify-center items-center rounded w-[1.6rem] h-[1.6rem] '><MdChat size={"1.3rem"} /></Box></Td>
+
+                                            <Td px={1} >
+                                                <Link to={""}>
+                                                    <Box bg={"#EEECED"}
+                                                        className='flex justify-center items-center rounded w-[1.6rem] h-[1.6rem] '>
+                                                        <MdChat size={"1.3rem"} />
+                                                    </Box>
+                                                </Link>
+                                            </Td>
+
                                             :
                                             <Td px={1}  >
                                                 <Box className='flex gap-3'>
-                                                    <Image src={checkButton} />
+                                                    <Link to={""}>
+                                                        <Image src={checkButton} />
+                                                    </Link>
+                                                    <Link to={""}>
+                                                        <Image src={deleteButton} />
+                                                    </Link>
 
-                                                    <Image src={deleteButton} />
                                                 </Box>
                                             </Td>
 
